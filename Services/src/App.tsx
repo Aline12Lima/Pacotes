@@ -2,90 +2,101 @@ export default function App() {
   return (
     <div className="min-h-screen text-gray-800">
       {/* HERO */}
-      <section className="max-w-6xl mx-auto px-2 py-16 pb-0 text-center">
-        <h2 className="text-4xl font-bold mb-4">
+      <section className="max-w-6xl mx-auto px-4 py-6 text-center">
+        <h2 className="text-4xl font-bold mb-1">
           Desenvolvimento de Landing Pages e Aplicações Web
         </h2>
-        <p className="text-lg text-gray-600 mb-8">
+        <p className="text-lg text-gray-600 mb-2">
           Soluções digitais sob medida para profissionais, empresas e projetos
           sociais.
         </p>
       </section>
 
       {/* PACOTES */}
-      <section id="pacotes" className="max-w-6xl mx-auto px-6 py-8 pt-8 pb-12">
+      <section id="pacotes" className="max-w-6xl mx-auto px-4 py-4">
         <h3 className="text-3xl font-bold text-center mb-4">
           Pacotes de Serviços
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* PACOTE 1 */}
-          <div className="bg-white rounded-lg shadow p-6 flex flex-col  border-2 border-blue-600">
-            <h4 className="text-xl font-bold mb-2">
+          <div className="bg-white rounded-lg shadow p-4 flex flex-col border-2 border-blue-600">
+            <h4 className="text-xl font-bold mb-1">
               Landing Page Simplificada
             </h4>
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-600 mb-2">
               Ideal para divulgação simples e objetiva.
             </p>
 
-            <ul className="text-sm text-gray-700 space-y-2 mb-6">
+            <ul className="text-sm text-gray-700 space-y-1 mb-2">
               <li>✔️ 1 página</li>
-              <li>✔️ Design simples (feito pelo cliente)</li>
-              <li>✔️ Seções básicas</li>
-              <li>✔️ Responsiva</li>
+              <li>✔️ Design simples (feito pelo cliente ou referência)</li>
+              <li>✔️ Seções básicas (Home, serviços, contato)</li>
+              <li>✔️ Responsiva (mobile e desktop)</li>
               <li>✔️ Links e botões</li>
+              <li>✔️ Código completo no GitHub</li>
               <li>❌ Sem domínio</li>
               <li>❌ Sem deploy</li>
               <li>❌ Sem formulários</li>
+              <li>❌ Sem design elaborado</li>
+              <li>❌ Sem vídeo maker</li>
+              <li>❌ Sem animações complexas</li>
+              <li>❌ Sem carrossel</li>
             </ul>
+            {/* Botão */}
+            <a
+              href="https://exemplo.com/simplificada"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-auto bg-blue-400 text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center"
+            >
+              Confira um exemplo
+            </a>
           </div>
 
           {/* PACOTE 2 */}
-          <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col border-2 border-blue-600">
-            <h4 className="text-xl font-bold mb-2">
-              Landing Page Profissional
+          <div className="bg-white rounded-lg shadow-lg p-4 flex flex-col border-2 border-blue-600">
+            <h4 className="text-xl font-bold mb-1">
+              Funcionalidades Adicionais
             </h4>
-            <p className="text-gray-600 mb-4">
-              Para profissionais e pequenas empresas.
+            <p className="text-gray-600 mb-2">
+              Serviços que você pode adicionar na landing, pagando a parte,
+              consulte os valores, pois cada projeto planejamos com dedicação e
+              cuidado.
             </p>
 
-            <ul className="text-sm text-gray-700 space-y-2 mb-6">
-              <li>✔️ Tudo da Landing Page Simplificada + </li>
-              <li>✔️ Animações leves</li>
-              <li>✔️ Integração com o Google Forms (incorporado)</li>
-              <li>✔️ Integração simples com API do cliente</li>
-              <li>✔️ Deploy (Vercel ou GitHub Pages)</li>
-              <li>❌ Sem domínio</li>
-            </ul>
-          </div>
-
-          {/* PACOTE 3 
-          <div className="bg-white rounded-lg shadow p-6 flex flex-col">
-            <h4 className="text-xl font-bold mb-2">SPA Completa</h4>
-            <p className="text-gray-600 mb-4">
-              Aplicações completas com lógica e integração.
-            </p>
-
-            <ul className="text-sm text-gray-700 space-y-2 mb-6">
-              <li>✔️ SPA estruturada</li>
-              <li>✔️ Componentização</li>
-              <li>✔️ Rotas</li>
-              <li>✔️ Formulários</li>
+            <ul className="text-sm text-gray-700 space-y-1 mb-2">
+              <li>✔️ Funcionalidades adicionais</li>
+              <li>✔️ Múltiplas páginas e navegações</li>
+              <li>✔️ Animações complexas</li>
+              <li>
+                ✔️ Deploy (Vercel, GitHub Pages ou hospedagem personalizada)
+              </li>
               <li>✔️ Integração com APIs</li>
-              <li>✔️ Deploy</li>
+              <li>✔️ Formulários e integração</li>
+              <li>
+                ✔️ Vídeos incorporados (video makers prontos ou referências)
+              </li>
+              <li>✔️ Duas versões do projeto (mobile e desktop)</li>
+              <li>✔️ Carrosséis</li>
+              <li>✔️ Possibilidade de adicionar domínio</li>
             </ul>
-
-            <span className="text-2xl font-bold text-blue-600 mb-4">
-              A partir de R$ 400,00
-            </span>
+            {/* Botão */}
+            <a
+              href="https://exemplo.com/simplificada"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-auto bg-blue-400 text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center"
+            >
+              Confira um exemplo
+            </a>
           </div>
-          */}
         </div>
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-gray-500 text-gray-300 py-6">
-        <div className="max-w-6xl mx-auto px-6 text-center text-sm">
+      <footer className="bg-gray-500 text-gray-300 py-3">
+        <div className="max-w-6xl mx-auto px-4 text-center text-sm">
           © {new Date().getFullYear()} Aline Lima — Desenvolvimento Web
         </div>
       </footer>
