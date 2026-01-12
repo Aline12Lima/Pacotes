@@ -45,7 +45,7 @@ export default function App() {
             </ul>
             {/* Botão */}
             <a
-              href="https://exemplo.com/simplificada"
+              href="https://marianne-nutricionista-git-main-adsalinelima-7991s-projects.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto bg-blue-400 text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center"
@@ -81,15 +81,6 @@ export default function App() {
               <li>✔️ Carrosséis</li>
               <li>✔️ Possibilidade de adicionar domínio</li>
             </ul>
-            {/* Botão */}
-            <a
-              href="https://exemplo.com/simplificada"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-auto bg-blue-400 text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center"
-            >
-              Confira um exemplo
-            </a>
           </div>
         </div>
       </section>
