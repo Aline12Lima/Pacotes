@@ -36,7 +36,7 @@ export default function App() {
               <li>✔️ Links e botões</li>
               <li>✔️ Código completo no GitHub</li>
               <li>✔️ Prazo de entrega: 3 a 5 dias úteis</li>
-              <li>✔️ Primeiro Deploy incluso (Vercel)</li>
+              <li>✔️ Primeiro Deploy incluso (Vercel)</li>{" "}
               <li>❌ Sem domínio</li>
               <li>❌ Sem formulários</li>
               <li>❌ Sem design elaborado</li>
@@ -67,12 +67,11 @@ export default function App() {
             </p>
 
             <ul className="text-sm text-gray-700 space-y-1 mb-2">
-              <li>✔️ Funcionalidades adicionais</li>
-              <li>✔️ Múltiplas páginas e navegações</li>
+              <li>✔️ Múltiplas páginas e navegação</li>
               <li>✔️ Animações complexas</li>
               <li>✔️ Deploy em hospedagem personalizada</li>
               <li>✔️ Integração com APIs</li>
-              <li>✔️ Formulários e integração</li>
+              <li>✔️ Formulários e integrações</li>
               <li>
                 ✔️ Vídeos incorporados (video makers prontos ou referências)
               </li>
