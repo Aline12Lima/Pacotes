@@ -76,7 +76,6 @@ export default function App() {
               <li>
                 ✔️ Vídeos incorporados (video makers prontos ou referências)
               </li>
-              <li>✔️ Duas versões do projeto (mobile e desktop)</li>
               <li>✔️ Carrosséis</li>
               <li>✔️ Possibilidade de adicionar domínio</li>
             </ul>
