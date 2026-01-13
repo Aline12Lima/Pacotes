@@ -38,7 +38,6 @@ export default function App() {
               <li>✔️ Prazo de entrega: 3 a 5 dias úteis</li>
               <li>✔️ Primeiro Deploy incluso (Vercel)</li>
               <li>❌ Sem domínio</li>
-              <li>❌ Sem deploy manual em plataformas específicas</li>
               <li>❌ Sem formulários</li>
               <li>❌ Sem design elaborado</li>
               <li>❌ Sem vídeo maker</li>
@@ -62,8 +61,8 @@ export default function App() {
               Funcionalidades Adicionais
             </h4>
             <p className="text-gray-600 mb-2">
-              Serviços que você pode adicionar na landing, pagando a parte,
-              consulte os valores, pois cada projeto planejamos com dedicação e
+              Serviços que você pode adicionar à landing page, pagos à parte.
+              Consulte os valores, pois cada projeto é planejado com dedicação e
               cuidado.
             </p>
 
