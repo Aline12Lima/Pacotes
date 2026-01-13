@@ -45,7 +45,7 @@ export default function App() {
             </ul>
             {/* Botão */}
             <a
-              href="https://marianne-nutricionista-git-main-adsalinelima-7991s-projects.vercel.app/"
+              href="https://ong-ande.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto bg-blue-400 text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center"
