@@ -67,15 +67,16 @@ export default function App() {
             </p>
 
             <ul className="text-sm text-gray-700 space-y-1 mb-2">
-              <li>✔️ Múltiplas páginas e navegação</li>
-              <li>✔️ Animações complexas</li>
+              <li>✔️ Múltiplas páginas e navegação (100,00 por página)</li>
+              <li>✔️ Animações complexas (50,00)</li>
               <li>✔️ Deploy em hospedagem personalizada</li>
-              <li>✔️ Integração com APIs</li>
-              <li>✔️ Formulários e integrações</li>
+              <li>✔️ Integração com APIs (70,00)</li>
+              <li>✔️ Formulários (50,00)</li>
               <li>
                 ✔️ Vídeos incorporados (video makers prontos ou referências)
+                (70,00)
               </li>
-              <li>✔️ Carrosséis</li>
+              <li>✔️ Carrosséis ( Texto 20,00,foto 50,00 e video 70,00)</li>
               <li>✔️ Possibilidade de adicionar domínio</li>
             </ul>
           </div>
